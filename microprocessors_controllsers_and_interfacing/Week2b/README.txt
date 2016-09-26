@@ -1,0 +1,1 @@
+Everything works fine. Except there's a delay due to LCD display when comparing displaying time in LCD and measuring in oscilloscope   

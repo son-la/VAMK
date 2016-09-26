@@ -1,0 +1,13 @@
+-L "nc30lib"
+-G
+-MS
+-O "C:\WorkSpace\week2a\week2a\debug\week2a.x30"
+"C:\WorkSpace\week2a\week2a\debug\ncrt0_rsk.r30"
+"C:\WorkSpace\week2a\week2a\debug\hwsetup.r30"
+"C:\WorkSpace\week2a\week2a\debug\main.r30"
+"C:\WorkSpace\week2a\week2a\debug\resetprg.r30"
+"C:\WorkSpace\week2a\week2a\debug\alarm.r30"
+"C:\WorkSpace\week2a\week2a\debug\calendar.r30"
+"C:\WorkSpace\week2a\week2a\debug\lcd.r30"
+"C:\WorkSpace\week2a\week2a\debug\set_operation.r30"
+"C:\WorkSpace\week2a\week2a\debug\time_set.r30"

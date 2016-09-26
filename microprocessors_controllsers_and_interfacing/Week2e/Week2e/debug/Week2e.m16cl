@@ -1,0 +1,9 @@
+-L "nc30lib"
+-G
+-MS
+-O "C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2e\Week2e\debug\Week2e.x30"
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2e\Week2e\debug\ncrt0_rsk.r30"
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2e\Week2e\debug\hwsetup.r30"
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2e\Week2e\debug\main_pm.r30"
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2e\Week2e\debug\resetprg.r30"
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2e\Week2e\debug\lcd.r30"

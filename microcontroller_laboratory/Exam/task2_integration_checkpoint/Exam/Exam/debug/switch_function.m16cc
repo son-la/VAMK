@@ -1,0 +1,5 @@
+-c
+-finfo
+-dir "C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task2_integration_checkpoint\Exam\Exam\debug"
+-Wall
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task2_integration_checkpoint\Exam\Exam\switch_function.c"

@@ -1,0 +1,8 @@
+import re
+
+regex = r"[+][0-9]{3}.*"
+test1 = "+358-40-1345678"
+
+compiled_re = re.compile(regex)
+
+print(compiled_re.search(address))

@@ -1,0 +1,9 @@
+-L "nc30lib"
+-G
+-MS
+-O "C:\WorkSpace\week1b\week1b\debug\week1b.x30"
+"C:\WorkSpace\week1b\week1b\debug\ncrt0_rsk.r30"
+"C:\WorkSpace\week1b\week1b\debug\hwsetup.r30"
+"C:\WorkSpace\week1b\week1b\debug\main.r30"
+"C:\WorkSpace\week1b\week1b\debug\resetprg.r30"
+"C:\WorkSpace\week1b\week1b\debug\lcd.r30"

@@ -1,0 +1,5 @@
+-c
+-finfo
+-dir "C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug"
+-Wall
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\utils.c"

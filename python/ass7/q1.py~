@@ -1,0 +1,7 @@
+def sl_sum(n,m):
+    if m == 0:
+        return n
+    
+    m = m - 1
+    sl_sum(n,m)
+    n = n + 1

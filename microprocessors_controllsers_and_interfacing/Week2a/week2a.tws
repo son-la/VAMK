@@ -1,0 +1,21 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"week2a" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2a\week2a\main.c" 
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2a\week2a\main.h" 
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2a\week2a\set_operation.c" 
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2a\week2a\time_set.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2a\week2a\main.c" -8 -31 748 406 1 0 
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2a\week2a\main.h" 26 26 524 471 0 1 
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2a\week2a\set_operation.c" 0 0 748 718 0 2 
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2a\week2a\time_set.c" 78 78 524 471 0 3 
+[LOADED_PROJECTS]
+"week2a" 
+[END]

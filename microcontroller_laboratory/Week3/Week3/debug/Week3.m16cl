@@ -1,0 +1,10 @@
+-L "nc30lib"
+-G
+-MS
+-O "\\profile.ad.puv.fi\roaming_data\e1300503\Desktop\week3\Week3\debug\Week3.x30"
+"\\profile.ad.puv.fi\roaming_data\e1300503\Desktop\week3\Week3\debug\ncrt0_rsk.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300503\Desktop\week3\Week3\debug\hwsetup.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300503\Desktop\week3\Week3\debug\main.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300503\Desktop\week3\Week3\debug\resetprg.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300503\Desktop\week3\Week3\debug\lcd.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300503\Desktop\week3\Week3\debug\utils.r30"

@@ -1,0 +1,5 @@
+-c
+-finfo
+-dir "C:\WorkSpace\week2a\week2a\debug"
+-Wall
+"C:\Workspace\week2a\week2a\alarm.c"

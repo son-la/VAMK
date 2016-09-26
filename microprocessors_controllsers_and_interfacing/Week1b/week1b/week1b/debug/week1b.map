@@ -1,0 +1,371 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @C:\WorkSpace\week1b\week1b\debug\week1b.m16cl
+
+# LINK FILE INFORMATION
+ncrt0_rsk (C:\WorkSpace\week1b\week1b\debug\ncrt0_rsk.r30)
+	Sep 25 08:28:03 2015
+
+hwsetup (C:\WorkSpace\week1b\week1b\debug\hwsetup.r30)
+	Sep 25 08:28:01 2015
+
+main (C:\WorkSpace\week1b\week1b\debug\main.r30)
+	Sep 25 08:28:02 2015
+
+resetprg (C:\WorkSpace\week1b\week1b\debug\resetprg.r30)
+	Sep 25 08:28:02 2015
+
+lcd (C:\WorkSpace\week1b\week1b\debug\lcd.r30)
+	Sep 25 08:28:03 2015
+
+_mbase (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:41 2010
+
+bcopy (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:43 2010
+
+bzero (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:44 2010
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:55 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0_rsk
+bss_SE                           REL DATA    000400 000000 2     ncrt0_rsk
+data_SO                          REL DATA    000400 000000       ncrt0_rsk
+bss_SO                           REL DATA    000400 000000       ncrt0_rsk
+data_NE                          REL DATA    000400 000000 2     ncrt0_rsk
+                                 REL DATA    000400 000010 2     main
+                                 REL DATA    000410 000010 2     mdata
+bss_NE                           REL DATA    000420 000000 2     ncrt0_rsk
+                                 REL DATA    000420 000004 2     _mbase
+                                 REL DATA    000424 000008 2     mdata
+data_NO                          REL DATA    00042C 000000       ncrt0_rsk
+                                 REL DATA    00042C 00001C       main
+                                 REL DATA    000448 000001       lcd
+bss_NO                           REL DATA    000449 000000       ncrt0_rsk
+                                 REL DATA    000449 000003       main
+stack                            REL DATA    00044C 000600       ncrt0_rsk
+heap                             REL DATA    000A4C 000300       ncrt0_rsk
+rom_NE                           REL ROMDATA 000D4C 000000 2     ncrt0_rsk
+rom_NO                           REL ROMDATA 000D4C 000000       ncrt0_rsk
+data_FE                          ABS DATA    010000 000000       ncrt0_rsk
+bss_FE                           REL DATA    010000 000000 2     ncrt0_rsk
+data_FO                          REL DATA    010000 000000       ncrt0_rsk
+bss_FO                           REL DATA    010000 000000       ncrt0_rsk
+rom_FE                           ABS ROMDATA 0F0000 000000       ncrt0_rsk
+rom_FO                           REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_SEI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_SOI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_NEI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+                                 REL ROMDATA 0F0000 000010       main
+                                 REL ROMDATA 0F0010 000010       mdata
+data_NOI                         REL ROMDATA 0F0020 000000       ncrt0_rsk
+                                 REL ROMDATA 0F0020 00001C       main
+                                 REL ROMDATA 0F003C 000001       lcd
+data_FEI                         REL ROMDATA 0F003D 000000       ncrt0_rsk
+data_FOI                         REL ROMDATA 0F003D 000000       ncrt0_rsk
+switch_table                     REL ROMDATA 0F003D 000000       ncrt0_rsk
+program                          REL CODE    0F003D 000000       ncrt0_rsk
+                                 REL CODE    0F003E 0000DB 2     hwsetup
+                                 REL CODE    0F011A 000303 2     main
+                                 REL CODE    0F041E 00000A 2     resetprg
+                                 REL CODE    0F0428 0001E4 2     lcd
+                                 REL CODE    0F060C 000035 2     bcopy
+                                 REL CODE    0F0642 000028 2     bzero
+interrupt                        REL CODE    0F066A 000000       ncrt0_rsk
+                                 REL CODE    0F066A 000113       ncrt0_rsk
+program_S                        REL CODE    0F077D 000000       ncrt0_rsk
+vector                           ABS ROMDATA 0FFD00 000100       ncrt0_rsk
+svector                          ABS ROMDATA 0FFE00 000000       ncrt0_rsk
+fvector                          ABS ROMDATA 0FFFFC 000004       ncrt0_rsk
+# Total -------------------------------------------------------------------
+                                     DATA           00094C(0002380) Byte(s)
+                                     ROMDATA        000141(0000321) Byte(s)
+                                     CODE           000740(0001856) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DisplayString     0f04d6  $LCD_nibble_writ   0f0560  $LCD_write         0f0534
+$exit              0f077a  _ConfigureOperat   0f0048  _ConfigurePortPi   0f00a2
+_DisplayDelay      0f05e6  _EnablePeriphera   0f0094  _HardwareSetup     0f003e
+_Initialise        0f041e  _InitialiseDispl   0f0428  _LCD_display_scr   0f0260
+_LCD_display_scr   0f01fe  _LCD_display_scr   0f0182  __mbase            000420
+__memt             000418  __mnext            000424  __msize            000428
+__pool             000410  _bcopy             0f060c  _bzero             0f0642
+_changed           00044b  _char_pos_2line1   000406  _char_pos_2line2   000408
+_dir               000449  _exit              0f077a  _first_char_left   000402
+_first_char_scro   000400  _lcd_pos_2line     000404  _main              0f03e4
+_msecond           00040c  _preset_data       00042c  _push_button_pre   0f0154
+_push_button_rel   0f016e  _second            00040e  _show_choice       00040a
+_string            00042d  _sw1               0f011a  _sw3               0f012c
+_timer_a0_interr   0f0324  _toggle            00044a  dummy_int          0f077c
+start              0f066a  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\week1b\week1b\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\week1b\week1b\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\week1b\week1b\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\week1b\week1b\debug\resetprg.r30 )
+@ lcd ( C:\WorkSpace\week1b\week1b\debug\lcd.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\week1b\week1b\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\week1b\week1b\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\week1b\week1b\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\week1b\week1b\debug\resetprg.r30 )
+@ lcd ( C:\WorkSpace\week1b\week1b\debug\lcd.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\week1b\week1b\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\week1b\week1b\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\week1b\week1b\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\week1b\week1b\debug\resetprg.r30 )
+@ lcd ( C:\WorkSpace\week1b\week1b\debug\lcd.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000041f        20   2
+bss_NE
+                                  00000420  0000042b         c   2
+data_NO
+                                  0000042c  00000448        1d   1
+bss_NO
+                                  00000449  0000044b         3   1
+stack
+                                  0000044c  00000a4b       600   1
+heap
+                                  00000a4c  00000d4b       300   1
+rom_NE
+                                  00000d4c  00000d4c         0   2
+rom_NO
+                                  00000d4c  00000d4c         0   1
+data_FE
+                                  00010000  00010000         0   1
+bss_FE
+                                  00010000  00010000         0   2
+data_FO
+                                  00010000  00010000         0   1
+bss_FO
+                                  00010000  00010000         0   1
+rom_FE
+                                  000f0000  000f0000         0   1
+rom_FO
+                                  000f0000  000f0000         0   1
+data_SEI
+                                  000f0000  000f0000         0   1
+data_SOI
+                                  000f0000  000f0000         0   1
+data_NEI
+                                  000f0000  000f001f        20   1
+data_NOI
+                                  000f0020  000f003c        1d   1
+data_FEI
+                                  000f003d  000f003d         0   1
+data_FOI
+                                  000f003d  000f003d         0   1
+switch_table
+                                  000f003d  000f003d         0   1
+program
+                                  000f003d  000f0669       62d   1
+interrupt
+                                  000f066a  000f077c       113   1
+program_S
+                                  000f077d  000f077d         0   1
+vector
+                                  000ffd00  000ffdff       100   1
+svector
+                                  000ffe00  000ffe00         0   1
+fvector
+                                  000ffffc  000fffff         4   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0_rsk
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=C:/WorkSpace/week1b/week1b/main
+                                  00000400  0000040f        10
+  _first_char_scroll
+                                  00000400         2   data ,g         0
+  _first_char_left
+                                  00000402         2   data ,g         0
+  _lcd_pos_2line
+                                  00000404         2   data ,g         0
+  _char_pos_2line1
+                                  00000406         2   data ,g         0
+  _char_pos_2line2
+                                  00000408         2   data ,g         0
+  _show_choice
+                                  0000040a         2   data ,g         0
+  _msecond
+                                  0000040c         2   data ,g         0
+  _second
+                                  0000040e         2   data ,g         0
+
+FILE=mdata
+                                  00000410  0000041f        10
+  __memt
+                                  00000418         0   none ,g         0
+  __pool
+                                  00000410         0   none ,g         0
+
+SECTION=bss_NE
+FILE=ncrt0_rsk
+                                  00000420  00000420         0
+  __mbase
+                                  00000420         0   none ,g         0
+
+FILE=mdata
+                                  00000424  0000042b         8
+  __mnext
+                                  00000424         0   none ,g         0
+  __msize
+                                  00000428         0   none ,g         0
+
+SECTION=data_NO
+FILE=ncrt0_rsk
+                                  0000042c  0000042c         0
+  _preset_data
+                                  0000042c         1   data ,g         0
+
+FILE=C:/WorkSpace/week1b/week1b/main
+                                  0000042c  00000447        1c
+  _string
+                                  0000042d        1b   data ,g         0
+
+SECTION=bss_NO
+FILE=ncrt0_rsk
+                                  00000449  00000449         0
+  _dir
+                                  00000449         1   data ,g         0
+
+FILE=C:/WorkSpace/week1b/week1b/main
+                                  00000449  0000044b         3
+  _toggle
+                                  0000044a         1   data ,g         0
+  _changed
+                                  0000044b         1   data ,g         0
+
+SECTION=program
+FILE=C:/WorkSpace/week1b/week1b/hwsetup
+                                  000f003e  000f0118        db
+  _HardwareSetup
+                                  000f003e         a   func ,g         0
+  _ConfigureOperatingFrequency
+                                  000f0048        4c   func ,g         0
+  _EnablePeripheralModules
+                                  000f0094         d   func ,g         0
+
+FILE=C:/WorkSpace/week1b/week1b/main
+                                  000f011a  000f041c       303
+  _sw1
+                                  000f011a        12   func ,g         0
+  _sw3
+                                  000f012c        27   func ,g         0
+  _push_button_pressed
+                                  000f0154        1a   func ,g         0
+  _push_button_released
+                                  000f016e        15   func ,g         0
+  _LCD_display_scroll_up
+                                  000f0182        7b   func ,g         0
+  _LCD_display_scroll_left
+                                  000f01fe        62   func ,g         0
+  _LCD_display_scroll_2_line
+                                  000f0260        c5   func ,g         0
+  _timer_a0_interrupt
+                                  000f0324        c0   func ,g         0
+  _main
+                                  000f03e4        39   func ,g         0
+
+FILE=C:/WorkSpace/week1b/week1b/resetprg
+                                  000f041e  000f0427         a
+  _Initialise
+                                  000f041e         a   func ,g         0
+
+FILE=C:/Workspace/week1b/week1b/lcd
+                                  000f0428  000f060b       1e4
+  _InitialiseDisplay
+                                  000f0428        ae   func ,g         0
+  $DisplayString
+                                  000f04d6        5e   func ,g         0
+  $LCD_write
+                                  000f0534        2c   func ,g         0
+  $LCD_nibble_write
+                                  000f0560        86   func ,g         0
+  _DisplayDelay
+                                  000f05e6        26   func ,g         0
+
+FILE=bcopy
+                                  000f060c  000f0640        35
+  _bcopy
+                                  000f060c        35   func ,g         0
+
+FILE=bzero
+                                  000f0642  000f0669        28
+  _bzero
+                                  000f0642        28   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0_rsk
+                                  000f066a  000f077c       113
+  $exit
+                                  000f077a         0   none ,g         0
+  _exit
+                                  000f077a         0   none ,g         0
+  dummy_int
+                                  000f077c         0   none ,g         0
+

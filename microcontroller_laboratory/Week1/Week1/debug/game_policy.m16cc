@@ -1,0 +1,5 @@
+-c
+-finfo
+-dir "C:\WorkSpace\uC\Week1\Week1\debug"
+-Wall
+"C:\Workspace\uC\Week1\Week1\game_policy.c"

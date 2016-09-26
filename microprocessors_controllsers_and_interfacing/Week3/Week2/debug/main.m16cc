@@ -1,0 +1,5 @@
+-c
+-finfo
+-dir "\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week2\Week2\debug"
+-Wall
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week2\Week2\main.c"

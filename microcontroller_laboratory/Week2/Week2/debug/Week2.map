@@ -1,0 +1,709 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\Week2.m16cl
+
+# LINK FILE INFORMATION
+ncrt0_rsk (C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\ncrt0_rsk.r30)
+	Dec  7 17:42:12 2015
+
+hwsetup (C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\hwsetup.r30)
+	Dec  7 17:42:10 2015
+
+main (C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\main.r30)
+	Dec  7 17:42:11 2015
+
+resetprg (C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\resetprg.r30)
+	Dec  7 17:42:12 2015
+
+lcd (C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\lcd.r30)
+	Dec  7 17:42:11 2015
+
+utils (C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\utils.r30)
+	Dec  7 17:42:12 2015
+
+_f4eq (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:33 2010
+
+_f4ge (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:33 2010
+
+_f4tof8 (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:34 2010
+
+_f4toi4u (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:35 2010
+
+_f8add (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:35 2010
+
+_f8div (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:35 2010
+
+_f8le (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:36 2010
+
+_f8lt (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:36 2010
+
+_f8ltor (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:36 2010
+
+_f8mul (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:36 2010
+
+_f8sub (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:37 2010
+
+_f8toi4 (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:37 2010
+
+_ftol (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:38 2010
+
+_i4div (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:38 2010
+
+_i4mod (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:38 2010
+
+_i4mulu (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:39 2010
+
+_i4tof4 (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:39 2010
+
+_i4tof8 (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:39 2010
+
+_ltof (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:41 2010
+
+_mbase (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:41 2010
+
+bcopy (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:43 2010
+
+bzero (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:44 2010
+
+mdata (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:55 2010
+
+_f4adds (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 14:59:49 2010
+
+_f4divs (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 14:59:49 2010
+
+_f4muls (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 14:59:49 2010
+
+_f4rets (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 14:59:49 2010
+
+_f4ltor (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:34 2010
+
+_f4rtol (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:34 2010
+
+_f8rtol (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:37 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0_rsk
+bss_SE                           REL DATA    000400 000000 2     ncrt0_rsk
+data_SO                          REL DATA    000400 000000       ncrt0_rsk
+bss_SO                           REL DATA    000400 000000       ncrt0_rsk
+data_NE                          REL DATA    000400 000000 2     ncrt0_rsk
+                                 REL DATA    000400 00009A 2     main
+                                 REL DATA    00049A 000010 2     mdata
+bss_NE                           REL DATA    0004AA 000000 2     ncrt0_rsk
+                                 REL DATA    0004AA 000004 2     main
+                                 REL DATA    0004AE 000004 2     _mbase
+                                 REL DATA    0004B2 000008 2     mdata
+data_NO                          REL DATA    0004BA 000000       ncrt0_rsk
+                                 REL DATA    0004BA 000001       lcd
+bss_NO                           REL DATA    0004BB 000000       ncrt0_rsk
+stack                            REL DATA    0004BB 000600       ncrt0_rsk
+heap                             REL DATA    000ABB 000300       ncrt0_rsk
+rom_NE                           REL ROMDATA 000DBC 000000 2     ncrt0_rsk
+rom_NO                           REL ROMDATA 000DBC 000000       ncrt0_rsk
+data_FE                          ABS DATA    010000 000000       ncrt0_rsk
+bss_FE                           REL DATA    010000 000000 2     ncrt0_rsk
+data_FO                          REL DATA    010000 000000       ncrt0_rsk
+bss_FO                           REL DATA    010000 000000       ncrt0_rsk
+rom_FE                           ABS ROMDATA 0F0000 000000       ncrt0_rsk
+rom_FO                           REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_SEI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_SOI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_NEI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+                                 REL ROMDATA 0F0000 00009A       main
+                                 REL ROMDATA 0F009A 000010       mdata
+data_NOI                         REL ROMDATA 0F00AA 000000       ncrt0_rsk
+                                 REL ROMDATA 0F00AA 000001       lcd
+data_FEI                         REL ROMDATA 0F00AB 000000       ncrt0_rsk
+data_FOI                         REL ROMDATA 0F00AB 000000       ncrt0_rsk
+switch_table                     REL ROMDATA 0F00AB 000000       ncrt0_rsk
+program                          REL CODE    0F00AB 000000       ncrt0_rsk
+                                 REL CODE    0F00AC 0000DB 2     hwsetup
+                                 REL CODE    0F0188 0005F0 2     main
+                                 REL CODE    0F0778 00000A 2     resetprg
+                                 REL CODE    0F0782 0001E4 2     lcd
+                                 REL CODE    0F0966 0004D9 2     utils
+                                 REL CODE    0F0E40 00005C 2     _f4eq
+                                 REL CODE    0F0E9C 000081 2     _f4ge
+                                 REL CODE    0F0F1E 000086 2     _f4tof8
+                                 REL CODE    0F0FA4 000025 2     _f4toi4u
+                                 REL CODE    0F0FCA 00091B 2     _f8add
+                                 REL CODE    0F18E6 0002C9 2     _f8div
+                                 REL CODE    0F1BB0 0000A7 2     _f8le
+                                 REL CODE    0F1C58 0000A7 2     _f8lt
+                                 REL CODE    0F1D00 000054 2     _f8ltor
+                                 REL CODE    0F1D54 0002C7 2     _f8mul
+                                 REL CODE    0F201C 000028 2     _f8sub
+                                 REL CODE    0F2044 000025 2     _f8toi4
+                                 REL CODE    0F206A 000111 2     _ftol
+                                 REL CODE    0F217C 000083 2     _i4div
+                                 REL CODE    0F2200 000073 2     _i4mod
+                                 REL CODE    0F2274 00001C 2     _i4mulu
+                                 REL CODE    0F2290 000022 2     _i4tof4
+                                 REL CODE    0F22B2 000022 2     _i4tof8
+                                 REL CODE    0F22D4 0000D4 2     _ltof
+                                 REL CODE    0F23A8 000035 2     bcopy
+                                 REL CODE    0F23DE 000028 2     bzero
+                                 REL CODE    0F2406 00013B 2     _f4adds
+                                 REL CODE    0F2542 0000D2 2     _f4divs
+                                 REL CODE    0F2614 0000B0 2     _f4muls
+                                 REL CODE    0F26C4 000032 2     _f4rets
+                                 REL CODE    0F26F6 000046 2     _f4ltor
+                                 REL CODE    0F273C 00003E 2     _f4rtol
+                                 REL CODE    0F277A 000041 2     _f8rtol
+interrupt                        REL CODE    0F27BB 000000       ncrt0_rsk
+                                 REL CODE    0F27BB 000113       ncrt0_rsk
+program_S                        REL CODE    0F28CE 000000       ncrt0_rsk
+vector                           ABS ROMDATA 0FFD00 000100       ncrt0_rsk
+svector                          ABS ROMDATA 0FFE00 000000       ncrt0_rsk
+fvector                          ABS ROMDATA 0FFFFC 000004       ncrt0_rsk
+# Total -------------------------------------------------------------------
+                                     DATA           0009BB(0002491) Byte(s)
+                                     ROMDATA        0001AF(0000431) Byte(s)
+                                     CODE           002823(0010275) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DisplayString     0f0830  $LCD_nibble_writ   0f08ba  $LCD_write         0f088e
+$_f4ltor           0f26f6  $_f4rtol           0f273c  $_f8ltor           0f1d00
+$_f8rtol           0f277a  $_ftol             0f206a  $_ltof             0f22d4
+$exit              0f28cb  $lcd_display_flo   0f0966  $lcd_display_pla   0f0caa
+$lcd_display_rec   0f0b14  _ConfigureOperat   0f00b6  _ConfigurePortPi   0f0110
+_DisplayDelay      0f0940  _EnablePeriphera   0f0102  _HardwareSetup     0f00ac
+_Initialise        0f0778  _InitialiseDispl   0f0782  __f4add            0f2436
+__f4div            0f2564  __f4eq             0f0e40  __f4ge             0f0e9c
+__f4mul            0f2638  __f4retInf         0f26ce  __f4retNaN         0f26c4
+__f4retNum         0f26de  __f4retZero        0f26ca  __f4sub            0f2430
+__f4tof8           0f0f1e  __f4toi4U          0f0fa4  __f8add            0f0fca
+__f8div            0f18e6  __f8le             0f1bb0  __f8lt             0f1c58
+__f8mul            0f1d54  __f8sub            0f201c  __f8toi4           0f2044
+__i4div            0f217c  __i4mod            0f2200  __i4mulU           0f2274
+__i4tof4           0f2290  __i4tof8           0f22b2  __mbase            0004ae
+__memt             0004a2  __mnext            0004b2  __msize            0004b6
+__pool             00049a  _adc_configurati   0f06bc  _ampl              000480
+_bcopy             0f23a8  _bzero             0f23de  _dac_configurati   0f0702
+_data_pos          000490  _exit              0f28cb  _freq              0004aa
+_freq_choice       00047e  _freq_range        000478  _main              0f0716
+_max_adc_mode      000492  _mode              000494  _old_ratio         00048c
+_percent           000484  _realData          000450  _sineData          000400
+_sw1               0f0188  _sw2               0f01dc  _sw3               0f0254
+_sw_press          000496  _timer_a0_interr   0f0288  _timer_a0_interr   000498
+_timer_a1_interr   0f04be  _triangleData      000428  _update_display    0f058c
+_voltage           000488  dummy_int          0f28cd  start              0f27bb
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0_rsk ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\hwsetup.r30 )
+@ main ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\main.r30 )
+@ resetprg ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\resetprg.r30 )
+@ lcd ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\lcd.r30 )
+@ utils ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\utils.r30 )
+@ _f4eq ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4toi4u ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8add ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8le ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8lt ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8mul ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8sub ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8toi4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ftol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mod ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mulu ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ltof ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _mbase ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4adds ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4divs ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4muls ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rets ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0_rsk ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\hwsetup.r30 )
+@ main ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\main.r30 )
+@ resetprg ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\resetprg.r30 )
+@ lcd ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\lcd.r30 )
+@ utils ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\utils.r30 )
+@ _f4eq ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4toi4u ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8add ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8le ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8lt ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8mul ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8sub ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8toi4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ftol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mod ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mulu ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ltof ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _mbase ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4adds ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4divs ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4muls ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rets ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0_rsk ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\hwsetup.r30 )
+@ main ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\main.r30 )
+@ resetprg ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\resetprg.r30 )
+@ lcd ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\lcd.r30 )
+@ utils ( C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Week2\Week2\debug\utils.r30 )
+@ _f4eq ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4toi4u ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8add ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8le ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8lt ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8mul ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8sub ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8toi4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ftol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4div ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mod ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mulu ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ltof ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _mbase ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4adds ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4divs ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4muls ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rets ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  000004a9        aa   2
+bss_NE
+                                  000004aa  000004b9        10   2
+data_NO
+                                  000004ba  000004ba         1   1
+bss_NO
+                                  000004bb  000004bb         0   1
+stack
+                                  000004bb  00000aba       600   1
+heap
+                                  00000abb  00000dba       300   1
+rom_NE
+                                  00000dbc  00000dbc         0   2
+rom_NO
+                                  00000dbc  00000dbc         0   1
+data_FE
+                                  00010000  00010000         0   1
+bss_FE
+                                  00010000  00010000         0   2
+data_FO
+                                  00010000  00010000         0   1
+bss_FO
+                                  00010000  00010000         0   1
+rom_FE
+                                  000f0000  000f0000         0   1
+rom_FO
+                                  000f0000  000f0000         0   1
+data_SEI
+                                  000f0000  000f0000         0   1
+data_SOI
+                                  000f0000  000f0000         0   1
+data_NEI
+                                  000f0000  000f00a9        aa   1
+data_NOI
+                                  000f00aa  000f00aa         1   1
+data_FEI
+                                  000f00ab  000f00ab         0   1
+data_FOI
+                                  000f00ab  000f00ab         0   1
+switch_table
+                                  000f00ab  000f00ab         0   1
+program
+                                  000f00ab  000f27ba      2710   1
+interrupt
+                                  000f27bb  000f28cd       113   1
+program_S
+                                  000f28ce  000f28ce         0   1
+vector
+                                  000ffd00  000ffdff       100   1
+svector
+                                  000ffe00  000ffe00         0   1
+fvector
+                                  000ffffc  000fffff         4   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0_rsk
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=C:/Users/Son/Documents/GitHub/VAMK_microcontroller_laboratory/Week2/Week2/main
+                                  00000400  00000499        9a
+  _sineData
+                                  00000400        28   data ,g         0
+  _triangleData
+                                  00000428        28   data ,g         0
+  _realData
+                                  00000450        28   data ,g         0
+  _freq_range
+                                  00000478         6   data ,g         0
+  _freq_choice
+                                  0000047e         2   data ,g         0
+  _ampl
+                                  00000480         4   data ,g         0
+  _percent
+                                  00000484         4   data ,g         0
+  _voltage
+                                  00000488         4   data ,g         0
+  _old_ratio
+                                  0000048c         4   data ,g         0
+  _data_pos
+                                  00000490         2   data ,g         0
+  _max_adc_mode
+                                  00000492         2   data ,g         0
+  _mode
+                                  00000494         2   data ,g         0
+  _sw_press
+                                  00000496         2   data ,g         0
+  _timer_a0_interrupt_cnt
+                                  00000498         2   data ,g         0
+
+FILE=mdata
+                                  0000049a  000004a9        10
+  __memt
+                                  000004a2         0   none ,g         0
+  __pool
+                                  0000049a         0   none ,g         0
+
+SECTION=bss_NE
+FILE=C:/Users/Son/Documents/GitHub/VAMK_microcontroller_laboratory/Week2/Week2/main
+                                  000004aa  000004ad         4
+  _freq
+                                  000004aa         4   data ,g         0
+
+FILE=_mbase
+                                  000004ae  000004b1         4
+  __mbase
+                                  000004ae         0   none ,g         0
+
+FILE=mdata
+                                  000004b2  000004b9         8
+  __mnext
+                                  000004b2         0   none ,g         0
+  __msize
+                                  000004b6         0   none ,g         0
+
+SECTION=program
+FILE=C:/Users/Son/Documents/GitHub/VAMK_microcontroller_laboratory/Week2/Week2/hwsetup
+                                  000f00ac  000f0186        db
+  _HardwareSetup
+                                  000f00ac         a   func ,g         0
+  _ConfigureOperatingFrequency
+                                  000f00b6        4c   func ,g         0
+  _EnablePeripheralModules
+                                  000f0102         d   func ,g         0
+
+FILE=C:/Users/Son/Documents/GitHub/VAMK_microcontroller_laboratory/Week2/Week2/main
+                                  000f0188  000f0777       5f0
+  _sw1
+                                  000f0188        54   func ,g         0
+  _sw2
+                                  000f01dc        78   func ,g         0
+  _sw3
+                                  000f0254        34   func ,g         0
+  _timer_a0_interrupt
+                                  000f0288       235   func ,g         0
+  _timer_a1_interrupt
+                                  000f04be        cf   func ,g         0
+  _update_display
+                                  000f058c       130   func ,g         0
+  _adc_configuration
+                                  000f06bc        45   func ,g         0
+  _dac_configuration
+                                  000f0702        15   func ,g         0
+  _main
+                                  000f0716        62   func ,g         0
+
+FILE=C:/Users/Son/Documents/GitHub/VAMK_microcontroller_laboratory/Week2/Week2/resetprg
+                                  000f0778  000f0781         a
+  _Initialise
+                                  000f0778         a   func ,g         0
+
+FILE=C:/Users/Son/Documents/GitHub/VAMK_microcontroller_laboratory/Week2/Week2/lcd
+                                  000f0782  000f0965       1e4
+  _InitialiseDisplay
+                                  000f0782        ae   func ,g         0
+  $DisplayString
+                                  000f0830        5e   func ,g         0
+  $LCD_write
+                                  000f088e        2c   func ,g         0
+  $LCD_nibble_write
+                                  000f08ba        86   func ,g         0
+  _DisplayDelay
+                                  000f0940        26   func ,g         0
+
+FILE=C:/Users/Son/Documents/GitHub/VAMK_microcontroller_laboratory/Week2/Week2/utils
+                                  000f0966  000f0e3e       4d9
+  $lcd_display_floating_point
+                                  000f0966       1ad   func ,g         0
+  $lcd_display_recording
+                                  000f0b14       197   func ,g         0
+  $lcd_display_playback
+                                  000f0caa       195   func ,g         0
+
+FILE=_f4eq
+                                  000f0e40  000f0e9b        5c
+  __f4eq
+                                  000f0e40        5c   func ,g         0
+
+FILE=_f4ge
+                                  000f0e9c  000f0f1c        81
+  __f4ge
+                                  000f0e9c        81   func ,g         0
+
+FILE=_f4tof8
+                                  000f0f1e  000f0fa3        86
+  __f4tof8
+                                  000f0f1e        86   func ,g         0
+
+FILE=_f4toi4u
+                                  000f0fa4  000f0fc8        25
+  __f4toi4U
+                                  000f0fa4        25   func ,g         0
+
+FILE=_f8add
+                                  000f0fca  000f18e4       91b
+  __f8add
+                                  000f0fca       6dd   func ,g         0
+
+FILE=_f8div
+                                  000f18e6  000f1bae       2c9
+  __f8div
+                                  000f18e6       2c9   func ,g         0
+
+FILE=_f8le
+                                  000f1bb0  000f1c56        a7
+  __f8le
+                                  000f1bb0        a7   func ,g         0
+
+FILE=_f8lt
+                                  000f1c58  000f1cfe        a7
+  __f8lt
+                                  000f1c58        a7   func ,g         0
+
+FILE=_f8ltor
+                                  000f1d00  000f1d53        54
+  $_f8ltor
+                                  000f1d00        54   func ,g         0
+
+FILE=_f8mul
+                                  000f1d54  000f201a       2c7
+  __f8mul
+                                  000f1d54       2c7   func ,g         0
+
+FILE=_f8sub
+                                  000f201c  000f2043        28
+  __f8sub
+                                  000f201c        28   func ,g         0
+
+FILE=_f8toi4
+                                  000f2044  000f2068        25
+  __f8toi4
+                                  000f2044        25   func ,g         0
+
+FILE=_ftol
+                                  000f206a  000f217a       111
+  $_ftol
+                                  000f206a       111   func ,g         0
+
+FILE=_i4div
+                                  000f217c  000f21fe        83
+  __i4div
+                                  000f217c        83   func ,g         0
+
+FILE=_i4mod
+                                  000f2200  000f2272        73
+  __i4mod
+                                  000f2200        73   func ,g         0
+
+FILE=_i4mulu
+                                  000f2274  000f228f        1c
+  __i4mulU
+                                  000f2274        1c   func ,g         0
+
+FILE=_i4tof4
+                                  000f2290  000f22b1        22
+  __i4tof4
+                                  000f2290        22   func ,g         0
+
+FILE=_i4tof8
+                                  000f22b2  000f22d3        22
+  __i4tof8
+                                  000f22b2        22   func ,g         0
+
+FILE=_ltof
+                                  000f22d4  000f23a7        d4
+  $_ltof
+                                  000f22d4        d4   func ,g         0
+
+FILE=bcopy
+                                  000f23a8  000f23dc        35
+  _bcopy
+                                  000f23a8        35   func ,g         0
+
+FILE=bzero
+                                  000f23de  000f2405        28
+  _bzero
+                                  000f23de        28   func ,g         0
+
+FILE=_f4adds
+                                  000f2406  000f2540       13b
+  __f4sub
+                                  000f2430         0   func ,g         0
+  __f4add
+                                  000f2436         0   func ,g         0
+
+FILE=_f4divs
+                                  000f2542  000f2613        d2
+  __f4div
+                                  000f2564         0   func ,g         0
+
+FILE=_f4muls
+                                  000f2614  000f26c3        b0
+  __f4mul
+                                  000f2638         0   func ,g         0
+
+FILE=_f4rets
+                                  000f26c4  000f26f5        32
+  __f4retInf
+                                  000f26ce         0   none ,g         0
+  __f4retNaN
+                                  000f26c4         0   none ,g         0
+  __f4retNum
+                                  000f26de         0   none ,g         0
+  __f4retZero
+                                  000f26ca         0   none ,g         0
+
+FILE=_f4ltor
+                                  000f26f6  000f273b        46
+  $_f4ltor
+                                  000f26f6        46   func ,g         0
+
+FILE=_f4rtol
+                                  000f273c  000f2779        3e
+  $_f4rtol
+                                  000f273c        3e   func ,g         0
+
+FILE=_f8rtol
+                                  000f277a  000f27ba        41
+  $_f8rtol
+                                  000f277a        41   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0_rsk
+                                  000f27bb  000f28cd       113
+  $exit
+                                  000f28cb         0   none ,g         0
+  _exit
+                                  000f28cb         0   none ,g         0
+  dummy_int
+                                  000f28cd         0   none ,g         0
+

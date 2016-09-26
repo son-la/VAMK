@@ -1,0 +1,25 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"Week2" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\hwsetup.c" 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\lcd.c" 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\main.c" 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\ncrt0_rsk.a30" 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\readme.txt" 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\utils.c" 
+[WORKSPACE_FILE_STATES]
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\hwsetup.c" 25 25 1268 452 0 1 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\lcd.c" 150 150 1268 442 0 5 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\main.c" -8 -30 628 664 1 0 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\ncrt0_rsk.a30" 50 50 1268 452 0 2 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\readme.txt" 75 75 1268 452 0 3 
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\Week3and2\Week2\Week2\utils.c" 125 125 1264 448 0 4 
+[LOADED_PROJECTS]
+"Week2" 
+[END]

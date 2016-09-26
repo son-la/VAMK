@@ -1,0 +1,10 @@
+-L "nc30lib"
+-G
+-MS
+-O "\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\debug\MCIExam.x30"
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\debug\ncrt0_rsk.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\debug\hwsetup.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\debug\main.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\debug\resetprg.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\debug\lcd.r30"
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\debug\lcd_utils.r30"

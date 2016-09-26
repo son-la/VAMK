@@ -1,0 +1,5 @@
+-c
+-finfo
+-dir "\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\debug"
+-Wall
+"\\profile.ad.puv.fi\roaming_data\e1300509\Desktop\MCIExam\MCIExam\lcd_utils.c"

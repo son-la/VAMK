@@ -1,0 +1,480 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @C:\WorkSpace\week2a\week2a\debug\week2a.m16cl
+
+# LINK FILE INFORMATION
+ncrt0_rsk (C:\WorkSpace\week2a\week2a\debug\ncrt0_rsk.r30)
+	Oct  9 09:25:21 2015
+
+hwsetup (C:\WorkSpace\week2a\week2a\debug\hwsetup.r30)
+	Oct  9 09:25:19 2015
+
+main (C:\WorkSpace\week2a\week2a\debug\main.r30)
+	Oct  9 09:25:19 2015
+
+resetprg (C:\WorkSpace\week2a\week2a\debug\resetprg.r30)
+	Oct  9 09:25:19 2015
+
+alarm (C:\WorkSpace\week2a\week2a\debug\alarm.r30)
+	Oct  9 09:25:20 2015
+
+calendar (C:\WorkSpace\week2a\week2a\debug\calendar.r30)
+	Oct  9 09:25:20 2015
+
+lcd (C:\WorkSpace\week2a\week2a\debug\lcd.r30)
+	Oct  9 09:25:20 2015
+
+set_operation (C:\WorkSpace\week2a\week2a\debug\set_operation.r30)
+	Oct  9 09:25:21 2015
+
+time_set (C:\WorkSpace\week2a\week2a\debug\time_set.r30)
+	Oct  9 09:25:21 2015
+
+_mbase (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:41 2010
+
+bcopy (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:43 2010
+
+bzero (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:44 2010
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:55 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0_rsk
+bss_SE                           REL DATA    000400 000000 2     ncrt0_rsk
+data_SO                          REL DATA    000400 000000       ncrt0_rsk
+bss_SO                           REL DATA    000400 000000       ncrt0_rsk
+data_NE                          REL DATA    000400 000000 2     ncrt0_rsk
+                                 REL DATA    000400 000074 2     main
+                                 REL DATA    000474 000002 2     calendar
+                                 REL DATA    000476 000010 2     mdata
+bss_NE                           REL DATA    000486 000000 2     ncrt0_rsk
+                                 REL DATA    000486 000008 2     time_set
+                                 REL DATA    00048E 000004 2     _mbase
+                                 REL DATA    000492 000008 2     mdata
+data_NO                          REL DATA    00049A 000000       ncrt0_rsk
+                                 REL DATA    00049A 000001       alarm
+                                 REL DATA    00049B 000001       calendar
+                                 REL DATA    00049C 000001       lcd
+bss_NO                           REL DATA    00049D 000000       ncrt0_rsk
+stack                            REL DATA    00049D 000600       ncrt0_rsk
+heap                             REL DATA    000A9D 000300       ncrt0_rsk
+rom_NE                           REL ROMDATA 000D9E 000000 2     ncrt0_rsk
+rom_NO                           REL ROMDATA 000D9E 000000       ncrt0_rsk
+data_FE                          ABS DATA    010000 000000       ncrt0_rsk
+bss_FE                           REL DATA    010000 000000 2     ncrt0_rsk
+data_FO                          REL DATA    010000 000000       ncrt0_rsk
+bss_FO                           REL DATA    010000 000000       ncrt0_rsk
+rom_FE                           ABS ROMDATA 0F0000 000000       ncrt0_rsk
+rom_FO                           REL ROMDATA 0F0000 000000       ncrt0_rsk
+                                 REL ROMDATA 0F0000 000017       alarm
+                                 REL ROMDATA 0F0017 00001B       set_operation
+                                 REL ROMDATA 0F0032 000036       time_set
+data_SEI                         REL ROMDATA 0F0068 000000       ncrt0_rsk
+data_SOI                         REL ROMDATA 0F0068 000000       ncrt0_rsk
+data_NEI                         REL ROMDATA 0F0068 000000       ncrt0_rsk
+                                 REL ROMDATA 0F0068 000074       main
+                                 REL ROMDATA 0F00DC 000002       calendar
+                                 REL ROMDATA 0F00DE 000010       mdata
+data_NOI                         REL ROMDATA 0F00EE 000000       ncrt0_rsk
+                                 REL ROMDATA 0F00EE 000001       alarm
+                                 REL ROMDATA 0F00EF 000001       calendar
+                                 REL ROMDATA 0F00F0 000001       lcd
+data_FEI                         REL ROMDATA 0F00F1 000000       ncrt0_rsk
+data_FOI                         REL ROMDATA 0F00F1 000000       ncrt0_rsk
+switch_table                     REL ROMDATA 0F00F1 000000       ncrt0_rsk
+program                          REL CODE    0F00F1 000000       ncrt0_rsk
+                                 REL CODE    0F00F2 0000B8 2     hwsetup
+                                 REL CODE    0F01AA 000511 2     main
+                                 REL CODE    0F06BC 00000A 2     resetprg
+                                 REL CODE    0F06C6 00011F 2     alarm
+                                 REL CODE    0F07E6 000329 2     calendar
+                                 REL CODE    0F0B10 0001E4 2     lcd
+                                 REL CODE    0F0CF4 000069 2     set_operation
+                                 REL CODE    0F0D5E 00029B 2     time_set
+                                 REL CODE    0F0FFA 000035 2     bcopy
+                                 REL CODE    0F1030 000028 2     bzero
+interrupt                        REL CODE    0F1058 000000       ncrt0_rsk
+                                 REL CODE    0F1058 000113       ncrt0_rsk
+program_S                        REL CODE    0F116B 000000       ncrt0_rsk
+vector                           ABS ROMDATA 0FFD00 000100       ncrt0_rsk
+svector                          ABS ROMDATA 0FFE00 000000       ncrt0_rsk
+fvector                          ABS ROMDATA 0FFFFC 000004       ncrt0_rsk
+# Total -------------------------------------------------------------------
+                                     DATA           00099D(0002461) Byte(s)
+                                     ROMDATA        0001F5(0000501) Byte(s)
+                                     CODE           00107A(0004218) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DisplayString     0f0bbe  $LCD_display_ala   0f06c6  $LCD_display_ala   0f0750
+$LCD_display_cal   0f089e  $LCD_display_sho   0f0cf4  $LCD_display_tim   0f0d5e
+$LCD_nibble_writ   0f0c48  $LCD_write         0f0c1c  $check_alarm       0f07c8
+$exit              0f1168  $get_day_of_week   0f0a4e  _ConfigureOperat   0f00fc
+_ConfigurePortPi   0f0156  _DisplayDelay      0f0cce  _EnablePeriphera   0f0148
+_HardwareSetup     0f00f2  _Initialise        0f06bc  _InitialiseDispl   0f0b10
+__mbase            00048e  __memt             00047e  __mnext            000492
+__msize            000496  __pool             000476  _alarm_hour        000464
+_alarm_min         000462  _alarm_mode        00046a  _alarm_trigger     00046e
+_bcopy             0f0ffa  _bzero             0f1030  _check_alarm_tri   000466
+_day               000404  _day_adjust        0f0f9c  _day_of_week       000406
+_days_of_week      000410  _exit              0f1168  _hour              000408
+_hour_adjust       0f0d9c  _led_on            000470  _line1             000486
+_main              0f0662  _minute            00040a  _minute_adjust     0f0dfa
+_mode              00045c  _month             000402  _month_adjust      0f0f40
+_months_of_year    00042c  _msec              000460  _msecond           00040e
+_reset_alarm       0f051c  _second            00040c  _second_adjust     0f0e58
+_set_mode_choice   000468  _set_time_choice   00045e  _string_pos        000474
+_sw1               0f04da  _sw1_func          0f01aa  _sw2               0f04f0
+_sw2_func          0f0214  _sw3               0f0506  _sw3_func          0f0376
+_sw_press          00046c  _ta2_user_cnt      000472  _tik_tak           00049a
+_tik_tok           00049b  _timer_a0_interr   0f0526  _timer_a1_interr   0f05d0
+_timer_a2_interr   0f0644  _update_calendar   0f07e6  _year              000400
+_year_adjust       0f0eb6  dummy_int          0f116a  start              0f1058
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\week2a\week2a\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\week2a\week2a\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\week2a\week2a\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\week2a\week2a\debug\resetprg.r30 )
+@ alarm ( C:\WorkSpace\week2a\week2a\debug\alarm.r30 )
+@ calendar ( C:\WorkSpace\week2a\week2a\debug\calendar.r30 )
+@ lcd ( C:\WorkSpace\week2a\week2a\debug\lcd.r30 )
+@ set_operation ( C:\WorkSpace\week2a\week2a\debug\set_operation.r30 )
+@ time_set ( C:\WorkSpace\week2a\week2a\debug\time_set.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\week2a\week2a\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\week2a\week2a\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\week2a\week2a\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\week2a\week2a\debug\resetprg.r30 )
+@ alarm ( C:\WorkSpace\week2a\week2a\debug\alarm.r30 )
+@ calendar ( C:\WorkSpace\week2a\week2a\debug\calendar.r30 )
+@ lcd ( C:\WorkSpace\week2a\week2a\debug\lcd.r30 )
+@ set_operation ( C:\WorkSpace\week2a\week2a\debug\set_operation.r30 )
+@ time_set ( C:\WorkSpace\week2a\week2a\debug\time_set.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\week2a\week2a\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\week2a\week2a\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\week2a\week2a\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\week2a\week2a\debug\resetprg.r30 )
+@ alarm ( C:\WorkSpace\week2a\week2a\debug\alarm.r30 )
+@ calendar ( C:\WorkSpace\week2a\week2a\debug\calendar.r30 )
+@ lcd ( C:\WorkSpace\week2a\week2a\debug\lcd.r30 )
+@ set_operation ( C:\WorkSpace\week2a\week2a\debug\set_operation.r30 )
+@ time_set ( C:\WorkSpace\week2a\week2a\debug\time_set.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  00000485        86   2
+bss_NE
+                                  00000486  00000499        14   2
+data_NO
+                                  0000049a  0000049c         3   1
+bss_NO
+                                  0000049d  0000049d         0   1
+stack
+                                  0000049d  00000a9c       600   1
+heap
+                                  00000a9d  00000d9c       300   1
+rom_NE
+                                  00000d9e  00000d9e         0   2
+rom_NO
+                                  00000d9e  00000d9e         0   1
+data_FE
+                                  00010000  00010000         0   1
+bss_FE
+                                  00010000  00010000         0   2
+data_FO
+                                  00010000  00010000         0   1
+bss_FO
+                                  00010000  00010000         0   1
+rom_FE
+                                  000f0000  000f0000         0   1
+rom_FO
+                                  000f0000  000f0067        68   1
+data_SEI
+                                  000f0068  000f0068         0   1
+data_SOI
+                                  000f0068  000f0068         0   1
+data_NEI
+                                  000f0068  000f00ed        86   1
+data_NOI
+                                  000f00ee  000f00f0         3   1
+data_FEI
+                                  000f00f1  000f00f1         0   1
+data_FOI
+                                  000f00f1  000f00f1         0   1
+switch_table
+                                  000f00f1  000f00f1         0   1
+program
+                                  000f00f1  000f1057       f67   1
+interrupt
+                                  000f1058  000f116a       113   1
+program_S
+                                  000f116b  000f116b         0   1
+vector
+                                  000ffd00  000ffdff       100   1
+svector
+                                  000ffe00  000ffe00         0   1
+fvector
+                                  000ffffc  000fffff         4   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0_rsk
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=C:/WorkSpace/week2a/week2a/main
+                                  00000400  00000473        74
+  _mode
+                                  0000045c         2   data ,g         0
+  _year
+                                  00000400         2   data ,g         0
+  _month
+                                  00000402         2   data ,g         0
+  _day
+                                  00000404         2   data ,g         0
+  _day_of_week
+                                  00000406         2   data ,g         0
+  _hour
+                                  00000408         2   data ,g         0
+  _minute
+                                  0000040a         2   data ,g         0
+  _second
+                                  0000040c         2   data ,g         0
+  _msecond
+                                  0000040e         2   data ,g         0
+  _msec
+                                  00000460         2   data ,g         0
+  _days_of_week
+                                  00000410        1c   data ,g         0
+  _months_of_year
+                                  0000042c        30   data ,g         0
+  _alarm_min
+                                  00000462         2   data ,g         0
+  _alarm_hour
+                                  00000464         2   data ,g         0
+  _check_alarm_trigger
+                                  00000466         2   data ,g         0
+  _set_mode_choice
+                                  00000468         2   data ,g         0
+  _set_time_choice
+                                  0000045e         2   data ,g         0
+  _alarm_mode
+                                  0000046a         2   data ,g         0
+  _sw_press
+                                  0000046c         2   data ,g         0
+  _alarm_trigger
+                                  0000046e         2   data ,g         0
+  _led_on
+                                  00000470         2   data ,g         0
+  _ta2_user_cnt
+                                  00000472         2   data ,g         0
+
+FILE=C:/Workspace/week2a/week2a/calendar
+                                  00000474  00000475         2
+  _string_pos
+                                  00000474         2   data ,g         0
+
+FILE=mdata
+                                  00000476  00000485        10
+  __memt
+                                  0000047e         0   none ,g         0
+  __pool
+                                  00000476         0   none ,g         0
+
+SECTION=bss_NE
+FILE=C:/Workspace/week2a/week2a/time_set
+                                  00000486  0000048d         8
+  _line1
+                                  00000486         8   data ,g         0
+
+FILE=_mbase
+                                  0000048e  00000491         4
+  __mbase
+                                  0000048e         0   none ,g         0
+
+FILE=mdata
+                                  00000492  00000499         8
+  __mnext
+                                  00000492         0   none ,g         0
+  __msize
+                                  00000496         0   none ,g         0
+
+SECTION=data_NO
+FILE=ncrt0_rsk
+                                  0000049a  0000049a         0
+  _tik_tak
+                                  0000049a         1   data ,g         0
+
+FILE=C:/Workspace/week2a/week2a/calendar
+                                  0000049b  0000049b         1
+  _tik_tok
+                                  0000049b         1   data ,g         0
+
+SECTION=program
+FILE=C:/WorkSpace/week2a/week2a/hwsetup
+                                  000f00f2  000f01a9        b8
+  _HardwareSetup
+                                  000f00f2         a   func ,g         0
+  _ConfigureOperatingFrequency
+                                  000f00fc        4c   func ,g         0
+  _EnablePeripheralModules
+                                  000f0148         d   func ,g         0
+
+FILE=C:/WorkSpace/week2a/week2a/main
+                                  000f01aa  000f06ba       511
+  _sw1_func
+                                  000f01aa        6a   func ,g         0
+  _sw2_func
+                                  000f0214       161   func ,g         0
+  _sw3_func
+                                  000f0376       164   func ,g         0
+  _sw1
+                                  000f04da        17   func ,g         0
+  _sw2
+                                  000f04f0        16   func ,g         0
+  _sw3
+                                  000f0506        16   func ,g         0
+  _reset_alarm
+                                  000f051c         9   func ,g         0
+  _timer_a0_interrupt
+                                  000f0526        ab   func ,g         0
+  _timer_a1_interrupt
+                                  000f05d0        74   func ,g         0
+  _timer_a2_interrupt
+                                  000f0644        1e   func ,g         0
+  _main
+                                  000f0662        59   func ,g         0
+
+FILE=C:/WorkSpace/week2a/week2a/resetprg
+                                  000f06bc  000f06c5         a
+  _Initialise
+                                  000f06bc         a   func ,g         0
+
+FILE=C:/Workspace/week2a/week2a/alarm
+                                  000f06c6  000f07e4       11f
+  $LCD_display_alarm
+                                  000f06c6        8a   func ,g         0
+  $LCD_display_alarm_clock
+                                  000f0750        77   func ,g         0
+
+FILE=C:/Workspace/week2a/week2a/calendar
+                                  000f07e6  000f0b0e       329
+  _update_calendar
+                                  000f07e6        b7   func ,g         0
+  $LCD_display_calendar
+                                  000f089e       1b0   func ,g         0
+
+FILE=C:/Workspace/week2a/week2a/lcd
+                                  000f0b10  000f0cf3       1e4
+  _InitialiseDisplay
+                                  000f0b10        ae   func ,g         0
+  $DisplayString
+                                  000f0bbe        5e   func ,g         0
+  $LCD_write
+                                  000f0c1c        2c   func ,g         0
+  $LCD_nibble_write
+                                  000f0c48        86   func ,g         0
+  _DisplayDelay
+                                  000f0cce        26   func ,g         0
+
+FILE=C:/Workspace/week2a/week2a/set_operation
+                                  000f0cf4  000f0d5c        69
+  $LCD_display_show_options
+                                  000f0cf4        69   func ,g         0
+
+FILE=C:/Workspace/week2a/week2a/time_set
+                                  000f0d5e  000f0ff8       29b
+  $LCD_display_time_setting
+                                  000f0d5e        3d   func ,g         0
+  _hour_adjust
+                                  000f0d9c        5e   func ,g         0
+  _minute_adjust
+                                  000f0dfa        5e   func ,g         0
+  _second_adjust
+                                  000f0e58        5e   func ,g         0
+  _year_adjust
+                                  000f0eb6        8b   func ,g         0
+  _month_adjust
+                                  000f0f40        5c   func ,g         0
+  _day_adjust
+                                  000f0f9c        5d   func ,g         0
+
+FILE=bcopy
+                                  000f0ffa  000f102e        35
+  _bcopy
+                                  000f0ffa        35   func ,g         0
+
+FILE=bzero
+                                  000f1030  000f1057        28
+  _bzero
+                                  000f1030        28   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0_rsk
+                                  000f1058  000f116a       113
+  $exit
+                                  000f1168         0   none ,g         0
+  _exit
+                                  000f1168         0   none ,g         0
+  dummy_int
+                                  000f116a         0   none ,g         0
+

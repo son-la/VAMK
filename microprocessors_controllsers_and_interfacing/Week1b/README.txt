@@ -1,0 +1,1 @@
+All the task are implemented except for scrolling rate control.

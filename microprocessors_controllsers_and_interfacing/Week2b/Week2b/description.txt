@@ -1,0 +1,3 @@
+TimerA in One-Shot Mode
+Sample code showing how to setup Timer A for One-Shot operation.
+

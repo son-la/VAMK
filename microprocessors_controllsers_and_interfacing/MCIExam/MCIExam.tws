@@ -1,0 +1,25 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"MCIExam" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Workspace\MCIExam\MCIExam\lcd_utils.c" 
+"C:\Workspace\MCIExam\MCIExam\lcd_utils.h" 
+"C:\Workspace\MCIExam\MCIExam\main.c" 
+"C:\Workspace\MCIExam\MCIExam\ncrt0_rsk.a30" 
+"C:\Workspace\MCIExam\MCIExam\readme.txt" 
+"C:\Workspace\MCIExam\MCIExam\sect30.inc" 
+[WORKSPACE_FILE_STATES]
+"C:\Workspace\MCIExam\MCIExam\lcd_utils.c" 175 175 1508 403 0 5 
+"C:\Workspace\MCIExam\MCIExam\lcd_utils.h" 150 150 1508 403 0 4 
+"C:\Workspace\MCIExam\MCIExam\main.c" -8 -30 1724 641 1 0 
+"C:\Workspace\MCIExam\MCIExam\ncrt0_rsk.a30" 75 75 1508 403 0 1 
+"C:\Workspace\MCIExam\MCIExam\readme.txt" 100 100 1508 403 0 2 
+"C:\Workspace\MCIExam\MCIExam\sect30.inc" 125 125 1508 403 0 3 
+[LOADED_PROJECTS]
+"MCIExam" 
+[END]

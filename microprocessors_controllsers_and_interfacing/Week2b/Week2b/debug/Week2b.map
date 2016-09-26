@@ -1,0 +1,331 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\Week2b.m16cl
+
+# LINK FILE INFORMATION
+ncrt0_rsk (C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\ncrt0_rsk.r30)
+	Oct  2 11:25:28 2015
+
+hwsetup (C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\hwsetup.r30)
+	Oct  2 11:25:27 2015
+
+main_oneshot (C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\main_oneshot.r30)
+	Oct  2 11:25:27 2015
+
+resetprg (C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\resetprg.r30)
+	Oct  2 11:25:27 2015
+
+lcd (C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\lcd.r30)
+	Oct  2 11:25:28 2015
+
+_mbase (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:41 2010
+
+bcopy (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:43 2010
+
+bzero (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:44 2010
+
+mdata (c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:55 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0_rsk
+bss_SE                           REL DATA    000400 000000 2     ncrt0_rsk
+data_SO                          REL DATA    000400 000000       ncrt0_rsk
+bss_SO                           REL DATA    000400 000000       ncrt0_rsk
+data_NE                          REL DATA    000400 000000 2     ncrt0_rsk
+                                 REL DATA    000400 00000C 2     main_oneshot
+                                 REL DATA    00040C 000010 2     mdata
+bss_NE                           REL DATA    00041C 000000 2     ncrt0_rsk
+                                 REL DATA    00041C 000004 2     _mbase
+                                 REL DATA    000420 000008 2     mdata
+data_NO                          REL DATA    000428 000000       ncrt0_rsk
+                                 REL DATA    000428 000001       lcd
+bss_NO                           REL DATA    000429 000000       ncrt0_rsk
+stack                            REL DATA    000429 000600       ncrt0_rsk
+heap                             REL DATA    000A29 000300       ncrt0_rsk
+rom_NE                           REL ROMDATA 000D2A 000000 2     ncrt0_rsk
+rom_NO                           REL ROMDATA 000D2A 000000       ncrt0_rsk
+data_FE                          ABS DATA    010000 000000       ncrt0_rsk
+bss_FE                           REL DATA    010000 000000 2     ncrt0_rsk
+data_FO                          REL DATA    010000 000000       ncrt0_rsk
+bss_FO                           REL DATA    010000 000000       ncrt0_rsk
+rom_FE                           ABS ROMDATA 0F0000 000000       ncrt0_rsk
+rom_FO                           REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_SEI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_SOI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+data_NEI                         REL ROMDATA 0F0000 000000       ncrt0_rsk
+                                 REL ROMDATA 0F0000 00000C       main_oneshot
+                                 REL ROMDATA 0F000C 000010       mdata
+data_NOI                         REL ROMDATA 0F001C 000000       ncrt0_rsk
+                                 REL ROMDATA 0F001C 000001       lcd
+data_FEI                         REL ROMDATA 0F001D 000000       ncrt0_rsk
+data_FOI                         REL ROMDATA 0F001D 000000       ncrt0_rsk
+switch_table                     REL ROMDATA 0F001D 000000       ncrt0_rsk
+program                          REL CODE    0F001D 000000       ncrt0_rsk
+                                 REL CODE    0F001E 0000DB 2     hwsetup
+                                 REL CODE    0F00FA 0001C3 2     main_oneshot
+                                 REL CODE    0F02BE 00000A 2     resetprg
+                                 REL CODE    0F02C8 0001E4 2     lcd
+                                 REL CODE    0F04AC 000035 2     bcopy
+                                 REL CODE    0F04E2 000028 2     bzero
+interrupt                        REL CODE    0F050A 000000       ncrt0_rsk
+                                 REL CODE    0F050A 000113       ncrt0_rsk
+program_S                        REL CODE    0F061D 000000       ncrt0_rsk
+vector                           ABS ROMDATA 0FFD00 000100       ncrt0_rsk
+svector                          ABS ROMDATA 0FFE00 000000       ncrt0_rsk
+fvector                          ABS ROMDATA 0FFFFC 000004       ncrt0_rsk
+# Total -------------------------------------------------------------------
+                                     DATA           000929(0002345) Byte(s)
+                                     ROMDATA        000121(0000289) Byte(s)
+                                     CODE           000600(0001536) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DisplayString     0f0376  $LCD_nibble_writ   0f0400  $LCD_write         0f03d4
+$exit              0f061a  _ConfigureOperat   0f0028  _ConfigurePortPi   0f0082
+_DisplayDelay      0f0486  _EnablePeriphera   0f0074  _HardwareSetup     0f001e
+_Initialise        0f02be  _InitialiseDispl   0f02c8  __mbase            00041c
+__memt             000414  __mnext            000420  __msize            000424
+__pool             00040c  _bcopy             0f04ac  _bzero             0f04e2
+_counter           00040a  _exit              0f061a  _main              0f00fa
+_mode              000400  _oneshot_count     000402  _sw0_irq           0f0280
+_sw1_irq           0f0296  _ta1_irq           0f0192  _ta1_user_var      000408
+_ta2_irq           0f0172  _ta2_user_cnt      000406  _ta3_irq           0f0156
+_ta3_user_cnt      000404  _timer_init        0f013e  dummy_int          0f061c
+start              0f050a  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0_rsk ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\hwsetup.r30 )
+@ main_oneshot ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\main_oneshot.r30 )
+@ resetprg ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\resetprg.r30 )
+@ lcd ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\lcd.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0_rsk ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\hwsetup.r30 )
+@ main_oneshot ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\main_oneshot.r30 )
+@ resetprg ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\resetprg.r30 )
+@ lcd ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\lcd.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0_rsk ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\hwsetup.r30 )
+@ main_oneshot ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\main_oneshot.r30 )
+@ resetprg ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\resetprg.r30 )
+@ lcd ( C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\lcd.r30 )
+@ _mbase ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  0000041b        1c   2
+bss_NE
+                                  0000041c  00000427         c   2
+data_NO
+                                  00000428  00000428         1   1
+bss_NO
+                                  00000429  00000429         0   1
+stack
+                                  00000429  00000a28       600   1
+heap
+                                  00000a29  00000d28       300   1
+rom_NE
+                                  00000d2a  00000d2a         0   2
+rom_NO
+                                  00000d2a  00000d2a         0   1
+data_FE
+                                  00010000  00010000         0   1
+bss_FE
+                                  00010000  00010000         0   2
+data_FO
+                                  00010000  00010000         0   1
+bss_FO
+                                  00010000  00010000         0   1
+rom_FE
+                                  000f0000  000f0000         0   1
+rom_FO
+                                  000f0000  000f0000         0   1
+data_SEI
+                                  000f0000  000f0000         0   1
+data_SOI
+                                  000f0000  000f0000         0   1
+data_NEI
+                                  000f0000  000f001b        1c   1
+data_NOI
+                                  000f001c  000f001c         1   1
+data_FEI
+                                  000f001d  000f001d         0   1
+data_FOI
+                                  000f001d  000f001d         0   1
+switch_table
+                                  000f001d  000f001d         0   1
+program
+                                  000f001d  000f0509       4ed   1
+interrupt
+                                  000f050a  000f061c       113   1
+program_S
+                                  000f061d  000f061d         0   1
+vector
+                                  000ffd00  000ffdff       100   1
+svector
+                                  000ffe00  000ffe00         0   1
+fvector
+                                  000ffffc  000fffff         4   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0_rsk
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=C:/Users/e1300523/Downloads/Week2b/Week2b/Week2b/main_oneshot
+                                  00000400  0000040b         c
+  _mode
+                                  00000400         2   data ,g         0
+  _oneshot_count
+                                  00000402         2   data ,g         0
+  _ta3_user_cnt
+                                  00000404         2   data ,g         0
+  _ta2_user_cnt
+                                  00000406         2   data ,g         0
+  _ta1_user_var
+                                  00000408         2   data ,g         0
+  _counter
+                                  0000040a         2   data ,g         0
+
+FILE=mdata
+                                  0000040c  0000041b        10
+  __memt
+                                  00000414         0   none ,g         0
+  __pool
+                                  0000040c         0   none ,g         0
+
+SECTION=bss_NE
+FILE=ncrt0_rsk
+                                  0000041c  0000041c         0
+  __mbase
+                                  0000041c         0   none ,g         0
+
+FILE=mdata
+                                  00000420  00000427         8
+  __mnext
+                                  00000420         0   none ,g         0
+  __msize
+                                  00000424         0   none ,g         0
+
+SECTION=program
+FILE=C:/Users/e1300523/Downloads/Week2b/Week2b/Week2b/hwsetup
+                                  000f001e  000f00f8        db
+  _HardwareSetup
+                                  000f001e         a   func ,g         0
+  _ConfigureOperatingFrequency
+                                  000f0028        4c   func ,g         0
+  _EnablePeripheralModules
+                                  000f0074         d   func ,g         0
+
+FILE=C:/Users/e1300523/Downloads/Week2b/Week2b/Week2b/main_oneshot
+                                  000f00fa  000f02bc       1c3
+  _main
+                                  000f00fa        44   func ,g         0
+  _timer_init
+                                  000f013e        17   func ,g         0
+  _ta3_irq
+                                  000f0156        1c   func ,g         0
+  _ta2_irq
+                                  000f0172        21   func ,g         0
+  _ta1_irq
+                                  000f0192        ed   func ,g         0
+  _sw0_irq
+                                  000f0280        16   func ,g         0
+
+FILE=C:/Users/e1300523/Downloads/Week2b/Week2b/Week2b/resetprg
+                                  000f02be  000f02c7         a
+  _Initialise
+                                  000f02be         a   func ,g         0
+
+FILE=C:/Users/e1300523/Downloads/Week2b/Week2b/Week2b/lcd
+                                  000f02c8  000f04ab       1e4
+  _InitialiseDisplay
+                                  000f02c8        ae   func ,g         0
+  $DisplayString
+                                  000f0376        5e   func ,g         0
+  $LCD_write
+                                  000f03d4        2c   func ,g         0
+  $LCD_nibble_write
+                                  000f0400        86   func ,g         0
+  _DisplayDelay
+                                  000f0486        26   func ,g         0
+
+FILE=bcopy
+                                  000f04ac  000f04e0        35
+  _bcopy
+                                  000f04ac        35   func ,g         0
+
+FILE=bzero
+                                  000f04e2  000f0509        28
+  _bzero
+                                  000f04e2        28   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0_rsk
+                                  000f050a  000f061c       113
+  $exit
+                                  000f061a         0   none ,g         0
+  _exit
+                                  000f061a         0   none ,g         0
+  dummy_int
+                                  000f061c         0   none ,g         0
+

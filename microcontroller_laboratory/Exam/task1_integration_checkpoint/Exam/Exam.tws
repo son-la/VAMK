@@ -1,0 +1,23 @@
+[HIMDBVersion]
+2.0
+[DATABASE_VERSION]
+"1.2" 
+[CURRENT_PROJECT]
+"Exam" 
+[GENERAL_DATA]
+[BREAKPOINTS]
+[OPEN_WORKSPACE_FILES]
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\main.c" 
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\main.h" 
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\task1.c" 
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\task2.c" 
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\task_init.c" 
+[WORKSPACE_FILE_STATES]
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\main.c" 0 0 973 275 0 0 
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\main.h" 26 26 977 279 0 1 
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\task1.c" 104 104 977 279 0 4 
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\task2.c" 78 78 977 279 0 3 
+"C:\Users\Son\Documents\GitHub\VAMK_microcontroller_laboratory\Exam\task1_integration_checkpoint\Exam\Exam\task_init.c" 52 52 977 279 0 2 
+[LOADED_PROJECTS]
+"Exam" 
+[END]

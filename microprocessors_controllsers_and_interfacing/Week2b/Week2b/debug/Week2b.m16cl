@@ -1,0 +1,9 @@
+-L "nc30lib"
+-G
+-MS
+-O "C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\Week2b.x30"
+"C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\ncrt0_rsk.r30"
+"C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\hwsetup.r30"
+"C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\main_oneshot.r30"
+"C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\resetprg.r30"
+"C:\Users\e1300523\Downloads\Week2b\Week2b\Week2b\debug\lcd.r30"

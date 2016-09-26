@@ -1,0 +1,720 @@
+##########################################
+# (1) LINK INFORMATION                   #
+##########################################
+c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\bin\ln30.exe @C:\WorkSpace\Exam\Exam\debug\Exam.m16cl
+
+# LINK FILE INFORMATION
+ncrt0_rsk (C:\WorkSpace\Exam\Exam\debug\ncrt0_rsk.r30)
+	Dec  7 22:28:10 2015
+
+hwsetup (C:\WorkSpace\Exam\Exam\debug\hwsetup.r30)
+	Dec  7 22:28:07 2015
+
+main (C:\WorkSpace\Exam\Exam\debug\main.r30)
+	Dec  7 22:28:07 2015
+
+resetprg (C:\WorkSpace\Exam\Exam\debug\resetprg.r30)
+	Dec  7 22:28:06 2015
+
+adc_stuff (C:\WorkSpace\Exam\Exam\debug\adc_stuff.r30)
+	Dec  7 22:28:07 2015
+
+lcd (C:\WorkSpace\Exam\Exam\debug\lcd.r30)
+	Dec  7 22:28:08 2015
+
+lcd_utils (C:\WorkSpace\Exam\Exam\debug\lcd_utils.r30)
+	Dec  8 05:28:08 2015
+
+super_menu (C:\WorkSpace\Exam\Exam\debug\super_menu.r30)
+	Dec  7 22:28:08 2015
+
+switch_function (C:\WorkSpace\Exam\Exam\debug\switch_function.r30)
+	Dec  7 22:28:09 2015
+
+task1 (C:\WorkSpace\Exam\Exam\debug\task1.r30)
+	Dec  8 05:27:52 2015
+
+task2 (C:\WorkSpace\Exam\Exam\debug\task2.r30)
+	Dec  7 22:28:10 2015
+
+task3 (C:\WorkSpace\Exam\Exam\debug\task3.r30)
+	Dec  7 22:28:10 2015
+
+task4 (C:\WorkSpace\Exam\Exam\debug\task4.r30)
+	Dec  7 22:28:10 2015
+
+task5 (C:\WorkSpace\Exam\Exam\debug\task5.r30)
+	Dec  7 22:28:09 2015
+
+task_init (C:\WorkSpace\Exam\Exam\debug\task_init.r30)
+	Dec  7 22:28:09 2015
+
+timer_stuff (C:\WorkSpace\Exam\Exam\debug\timer_stuff.r30)
+	Dec  8 05:27:52 2015
+
+_f4tof8 (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:34 2010
+
+_f8ge (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:36 2010
+
+_f8ltor (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:36 2010
+
+_i4tof4 (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:39 2010
+
+_ltof (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:41 2010
+
+_mbase (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:41 2010
+
+bcopy (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:43 2010
+
+bzero (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:44 2010
+
+mdata (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:55 2010
+
+rand (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:05:09 2010
+
+_f4divs (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 14:59:49 2010
+
+_f4rets (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 14:59:49 2010
+
+_f4ltor (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:34 2010
+
+_f4rtol (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:34 2010
+
+_i4mulu (c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib)
+	Jan  6 15:04:39 2010
+
+
+##########################################
+# (2) SECTION INFORMATION                #
+##########################################
+# SECTION                        ATR TYPE    START  LENGTH ALIGN MODULENAME
+data_SE                          ABS DATA    000400 000000       ncrt0_rsk
+bss_SE                           REL DATA    000400 000000 2     ncrt0_rsk
+data_SO                          REL DATA    000400 000000       ncrt0_rsk
+bss_SO                           REL DATA    000400 000000       ncrt0_rsk
+data_NE                          REL DATA    000400 000000 2     ncrt0_rsk
+                                 REL DATA    000400 000004 2     lcd_utils
+                                 REL DATA    000404 000002 2     switch_function
+                                 REL DATA    000406 00000A 2     task1
+                                 REL DATA    000410 000006 2     timer_stuff
+                                 REL DATA    000416 000010 2     mdata
+                                 REL DATA    000426 000004 2     rand
+bss_NE                           REL DATA    00042A 000000 2     ncrt0_rsk
+                                 REL DATA    00042A 000004 2     main
+                                 REL DATA    00042E 000016 2     task1
+                                 REL DATA    000444 000002 2     timer_stuff
+                                 REL DATA    000446 000004 2     _mbase
+                                 REL DATA    00044A 000008 2     mdata
+data_NO                          REL DATA    000452 000000       ncrt0_rsk
+                                 REL DATA    000452 000001       lcd
+bss_NO                           REL DATA    000453 000000       ncrt0_rsk
+                                 REL DATA    000453 000002       task1
+stack                            REL DATA    000455 000600       ncrt0_rsk
+heap                             REL DATA    000A55 000300       ncrt0_rsk
+rom_NE                           REL ROMDATA 000D56 000000 2     ncrt0_rsk
+rom_NO                           REL ROMDATA 000D56 000000       ncrt0_rsk
+data_FE                          ABS DATA    010000 000000       ncrt0_rsk
+bss_FE                           REL DATA    010000 000000 2     ncrt0_rsk
+data_FO                          REL DATA    010000 000000       ncrt0_rsk
+bss_FO                           REL DATA    010000 000000       ncrt0_rsk
+rom_FE                           ABS ROMDATA 0F0000 000000       ncrt0_rsk
+rom_FO                           REL ROMDATA 0F0000 000000       ncrt0_rsk
+                                 REL ROMDATA 0F0000 00003F       lcd_utils
+data_SEI                         REL ROMDATA 0F003F 000000       ncrt0_rsk
+data_SOI                         REL ROMDATA 0F003F 000000       ncrt0_rsk
+data_NEI                         REL ROMDATA 0F003F 000000       ncrt0_rsk
+                                 REL ROMDATA 0F003F 000004       lcd_utils
+                                 REL ROMDATA 0F0043 000002       switch_function
+                                 REL ROMDATA 0F0045 00000A       task1
+                                 REL ROMDATA 0F004F 000006       timer_stuff
+                                 REL ROMDATA 0F0055 000010       mdata
+                                 REL ROMDATA 0F0065 000004       rand
+data_NOI                         REL ROMDATA 0F0069 000000       ncrt0_rsk
+                                 REL ROMDATA 0F0069 000001       lcd
+data_FEI                         REL ROMDATA 0F006A 000000       ncrt0_rsk
+data_FOI                         REL ROMDATA 0F006A 000000       ncrt0_rsk
+switch_table                     REL ROMDATA 0F006A 000000       ncrt0_rsk
+program                          REL CODE    0F006A 000000       ncrt0_rsk
+                                 REL CODE    0F006A 0000DB 2     hwsetup
+                                 REL CODE    0F0146 00000D 2     main
+                                 REL CODE    0F0154 00000A 2     resetprg
+                                 REL CODE    0F015E 00001A 2     adc_stuff
+                                 REL CODE    0F0178 0001E4 2     lcd
+                                 REL CODE    0F035C 000243 2     lcd_utils
+                                 REL CODE    0F05A0 000009 2     super_menu
+                                 REL CODE    0F05AA 000098 2     switch_function
+                                 REL CODE    0F0642 000303 2     task1
+                                 REL CODE    0F0946 000001 2     task2
+                                 REL CODE    0F0948 000001 2     task3
+                                 REL CODE    0F094A 000001 2     task4
+                                 REL CODE    0F094C 000001 2     task5
+                                 REL CODE    0F094E 00006F 2     task_init
+                                 REL CODE    0F09BE 000131 2     timer_stuff
+                                 REL CODE    0F0AF0 000086 2     _f4tof8
+                                 REL CODE    0F0B76 0000A7 2     _f8ge
+                                 REL CODE    0F0C1E 000054 2     _f8ltor
+                                 REL CODE    0F0C72 000022 2     _i4tof4
+                                 REL CODE    0F0C94 0000D4 2     _ltof
+                                 REL CODE    0F0D68 000035 2     bcopy
+                                 REL CODE    0F0D9E 000028 2     bzero
+                                 REL CODE    0F0DC6 000033 2     rand
+                                 REL CODE    0F0DFA 0000D2 2     _f4divs
+                                 REL CODE    0F0ECC 000032 2     _f4rets
+                                 REL CODE    0F0EFE 000046 2     _f4ltor
+                                 REL CODE    0F0F44 00003E 2     _f4rtol
+                                 REL CODE    0F0F82 00001C 2     _i4mulu
+interrupt                        REL CODE    0F0F9E 000000       ncrt0_rsk
+                                 REL CODE    0F0F9E 000113       ncrt0_rsk
+program_S                        REL CODE    0F10B1 000000       ncrt0_rsk
+vector                           ABS ROMDATA 0FFD00 000100       ncrt0_rsk
+svector                          ABS ROMDATA 0FFE00 000000       ncrt0_rsk
+fvector                          ABS ROMDATA 0FFFFC 000004       ncrt0_rsk
+# Total -------------------------------------------------------------------
+                                     DATA           000955(0002389) Byte(s)
+                                     ROMDATA        00016E(0000366) Byte(s)
+                                     CODE           001047(0004167) Byte(s)
+
+##########################################
+# (3) GLOBAL LABEL INFORMATION           #
+##########################################
+$DisplayString     0f0226  $LCD_nibble_writ   0f02b0  $LCD_write         0f0284
+$_f4ltor           0f0efe  $_f4rtol           0f0f44  $_f8ltor           0f0c1e
+$_ltof             0f0c94  $exit              0f10ae  $srand             0f0df0
+$task1_LCDGameDi   0f04f2  $task1_LCDGameIn   0f047e  $task1_LEDGameIn   0f0468
+_ConfigureOperat   0f0074  _ConfigurePortPi   0f00ce  _DisplayDelay      0f0336
+_EnablePeriphera   0f00c0  _HardwareSetup     0f006a  _Initialise        0f0154
+_InitialiseDispl   0f0178  __f4div            0f0e1c  __f4retInf         0f0ed6
+__f4retNaN         0f0ecc  __f4retNum         0f0ee6  __f4retZero        0f0ed2
+__f4tof8           0f0af0  __f8ge             0f0b76  __i4mulU           0f0f82
+__i4tof4           0f0c72  __mbase            000446  __memt             00041e
+__mnext            00044a  __msize            00044e  __pool             000416
+_adc_configurati   0f015e  _ball_x            00043c  _ball_x_val        000440
+_ball_y            00043e  _ball_y_val        000442  _bcopy             0f0d68
+_bzero             0f0d9e  _exit              0f10ae  _first_char_left   000400
+_main              0f0146  _old_knob_val      000444  _onceInitialize    0f094e
+_p1_y              000438  _p2_y              00043a  _rand              0f0dc6
+_superMenu_initi   0f05a0  _superMenu_lcdDi   0f035c  _superMenu_scrol   0f03d6
+_super_menu        00042a  _super_menu_choi   00042c  _sw1               0f05bc
+_sw2               0f05ea  _sw3               0f0618  _sw3_holds         000412
+_sw_press          000404  _switch_initiali   0f05aa  _task1_changeGam   0f06ba
+_task1_changeGam   0f08a4  _task1_checkGame   0f0720  _task1_checkGame   00040c
+_task1_dir         000454  _task1_gameOver    0f04ac  _task1_game_mode   000430
+_task1_game_spee   000406  _task1_game_spee   000434  _task1_game_stat   00042e
+_task1_initializ   0f0642  _task1_lcd_game_   000432  _task1_led_data    000453
+_task1_lose_blin   000436  _task1_playGame    0f073c  _task1_playGame_   00040e
+_task1_sw1         0f08b4  _task1_sw1_holds   000414  _task1_sw2         0f08fc
+_task1_tikTok      000402  _task2_initializ   0f0946  _task3_initializ   0f0948
+_task4_initializ   0f094a  _task5_initializ   0f094c  _taskInitialize    0f0960
+_timer_a0_cnt      000410  _timer_a0_interr   0f0a0c  _timer_a1_interr   0f0ada
+_timer_a2_interr   0f0aea  _timer_configura   0f09be  dummy_int          0f10b0
+start              0f0f9e  
+
+##########################################
+# (4) GLOBAL EQU SYMBOL INFORMATION      #
+##########################################
+__SB__           00000400  
+
+##########################################
+# (5) GLOBAL EQU BIT-SYMBOL INFORMATION  #
+##########################################
+
+##########################################
+# (6) LOCAL LABEL INFORMATION            #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\Exam\Exam\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\Exam\Exam\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\Exam\Exam\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\Exam\Exam\debug\resetprg.r30 )
+@ adc_stuff ( C:\WorkSpace\Exam\Exam\debug\adc_stuff.r30 )
+@ lcd ( C:\WorkSpace\Exam\Exam\debug\lcd.r30 )
+@ lcd_utils ( C:\WorkSpace\Exam\Exam\debug\lcd_utils.r30 )
+@ super_menu ( C:\WorkSpace\Exam\Exam\debug\super_menu.r30 )
+@ switch_function ( C:\WorkSpace\Exam\Exam\debug\switch_function.r30 )
+@ task1 ( C:\WorkSpace\Exam\Exam\debug\task1.r30 )
+@ task2 ( C:\WorkSpace\Exam\Exam\debug\task2.r30 )
+@ task3 ( C:\WorkSpace\Exam\Exam\debug\task3.r30 )
+@ task4 ( C:\WorkSpace\Exam\Exam\debug\task4.r30 )
+@ task5 ( C:\WorkSpace\Exam\Exam\debug\task5.r30 )
+@ task_init ( C:\WorkSpace\Exam\Exam\debug\task_init.r30 )
+@ timer_stuff ( C:\WorkSpace\Exam\Exam\debug\timer_stuff.r30 )
+@ _f4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ltof ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _mbase ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ rand ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4divs ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rets ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mulu ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (7) LOCAL EQU SYMBOL INFORMATION       #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\Exam\Exam\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\Exam\Exam\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\Exam\Exam\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\Exam\Exam\debug\resetprg.r30 )
+@ adc_stuff ( C:\WorkSpace\Exam\Exam\debug\adc_stuff.r30 )
+@ lcd ( C:\WorkSpace\Exam\Exam\debug\lcd.r30 )
+@ lcd_utils ( C:\WorkSpace\Exam\Exam\debug\lcd_utils.r30 )
+@ super_menu ( C:\WorkSpace\Exam\Exam\debug\super_menu.r30 )
+@ switch_function ( C:\WorkSpace\Exam\Exam\debug\switch_function.r30 )
+@ task1 ( C:\WorkSpace\Exam\Exam\debug\task1.r30 )
+@ task2 ( C:\WorkSpace\Exam\Exam\debug\task2.r30 )
+@ task3 ( C:\WorkSpace\Exam\Exam\debug\task3.r30 )
+@ task4 ( C:\WorkSpace\Exam\Exam\debug\task4.r30 )
+@ task5 ( C:\WorkSpace\Exam\Exam\debug\task5.r30 )
+@ task_init ( C:\WorkSpace\Exam\Exam\debug\task_init.r30 )
+@ timer_stuff ( C:\WorkSpace\Exam\Exam\debug\timer_stuff.r30 )
+@ _f4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ltof ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _mbase ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ rand ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4divs ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rets ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mulu ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+##########################################
+# (8) LOCAL EQU BIT-SYMBOL INFORMATION   #
+##########################################
+@ ncrt0_rsk ( C:\WorkSpace\Exam\Exam\debug\ncrt0_rsk.r30 )
+@ hwsetup ( C:\WorkSpace\Exam\Exam\debug\hwsetup.r30 )
+@ main ( C:\WorkSpace\Exam\Exam\debug\main.r30 )
+@ resetprg ( C:\WorkSpace\Exam\Exam\debug\resetprg.r30 )
+@ adc_stuff ( C:\WorkSpace\Exam\Exam\debug\adc_stuff.r30 )
+@ lcd ( C:\WorkSpace\Exam\Exam\debug\lcd.r30 )
+@ lcd_utils ( C:\WorkSpace\Exam\Exam\debug\lcd_utils.r30 )
+@ super_menu ( C:\WorkSpace\Exam\Exam\debug\super_menu.r30 )
+@ switch_function ( C:\WorkSpace\Exam\Exam\debug\switch_function.r30 )
+@ task1 ( C:\WorkSpace\Exam\Exam\debug\task1.r30 )
+@ task2 ( C:\WorkSpace\Exam\Exam\debug\task2.r30 )
+@ task3 ( C:\WorkSpace\Exam\Exam\debug\task3.r30 )
+@ task4 ( C:\WorkSpace\Exam\Exam\debug\task4.r30 )
+@ task5 ( C:\WorkSpace\Exam\Exam\debug\task5.r30 )
+@ task_init ( C:\WorkSpace\Exam\Exam\debug\task_init.r30 )
+@ timer_stuff ( C:\WorkSpace\Exam\Exam\debug\timer_stuff.r30 )
+@ _f4tof8 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ge ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f8ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4tof4 ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _ltof ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _mbase ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bcopy ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ bzero ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ mdata ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ rand ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4divs ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rets ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4ltor ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _f4rtol ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+@ _i4mulu ( c:\program files (x86)\renesas\hew\tools\renesas\nc30wa\v545r01\lib30\nc30lib.lib )
+
+*** Mapping List ***
+
+SECTION                            START      END         SIZE   ALIGN
+
+data_SE
+                                  00000400  00000400         0   1
+bss_SE
+                                  00000400  00000400         0   2
+data_SO
+                                  00000400  00000400         0   1
+bss_SO
+                                  00000400  00000400         0   1
+data_NE
+                                  00000400  00000429        2a   2
+bss_NE
+                                  0000042a  00000451        28   2
+data_NO
+                                  00000452  00000452         1   1
+bss_NO
+                                  00000453  00000454         2   1
+stack
+                                  00000455  00000a54       600   1
+heap
+                                  00000a55  00000d54       300   1
+rom_NE
+                                  00000d56  00000d56         0   2
+rom_NO
+                                  00000d56  00000d56         0   1
+data_FE
+                                  00010000  00010000         0   1
+bss_FE
+                                  00010000  00010000         0   2
+data_FO
+                                  00010000  00010000         0   1
+bss_FO
+                                  00010000  00010000         0   1
+rom_FE
+                                  000f0000  000f0000         0   1
+rom_FO
+                                  000f0000  000f003e        3f   1
+data_SEI
+                                  000f003f  000f003f         0   1
+data_SOI
+                                  000f003f  000f003f         0   1
+data_NEI
+                                  000f003f  000f0068        2a   1
+data_NOI
+                                  000f0069  000f0069         1   1
+data_FEI
+                                  000f006a  000f006a         0   1
+data_FOI
+                                  000f006a  000f006a         0   1
+switch_table
+                                  000f006a  000f006a         0   1
+program
+                                  000f006a  000f0f9d       f34   1
+interrupt
+                                  000f0f9e  000f10b0       113   1
+program_S
+                                  000f10b1  000f10b1         0   1
+vector
+                                  000ffd00  000ffdff       100   1
+svector
+                                  000ffe00  000ffe00         0   1
+fvector
+                                  000ffffc  000fffff         4   1
+
+*** Symbol List ***
+
+SECTION=
+FILE=                               START        END    SIZE
+  SYMBOL                            ADDR        SIZE    INFO      COUNTS  OPT
+
+SECTION=data_SE
+FILE=ncrt0_rsk
+                                  00000400  00000400         0
+  __SB__
+                                  00000400         0   none ,g         0
+
+SECTION=data_NE
+FILE=C:/Workspace/Exam/Exam/lcd_utils
+                                  00000400  00000403         4
+  _first_char_left
+                                  00000400         2   data ,g         0
+  _task1_tikTok
+                                  00000402         2   data ,g         0
+
+FILE=C:/Workspace/Exam/Exam/switch_function
+                                  00000404  00000405         2
+  _sw_press
+                                  00000404         2   data ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task1
+                                  00000406  0000040f         a
+  _task1_game_speed
+                                  00000406         6   data ,g         0
+  _task1_checkGameOver_cnt
+                                  0000040c         2   data ,g         0
+  _task1_playGame_cnt
+                                  0000040e         2   data ,g         0
+
+FILE=C:/Workspace/Exam/Exam/timer_stuff
+                                  00000410  00000415         6
+  _timer_a0_cnt
+                                  00000410         2   data ,g         0
+  _sw3_holds
+                                  00000412         2   data ,g         0
+  _task1_sw1_holds
+                                  00000414         2   data ,g         0
+
+FILE=mdata
+                                  00000416  00000425        10
+  __memt
+                                  0000041e         0   none ,g         0
+  __pool
+                                  00000416         0   none ,g         0
+
+SECTION=bss_NE
+FILE=C:/WorkSpace/Exam/Exam/main
+                                  0000042a  0000042d         4
+  _super_menu
+                                  0000042a         2   data ,g         0
+  _super_menu_choice
+                                  0000042c         2   data ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task1
+                                  0000042e  00000443        16
+  _task1_game_state
+                                  0000042e         2   data ,g         0
+  _task1_game_mode
+                                  00000430         2   data ,g         0
+  _task1_lcd_game_mode
+                                  00000432         2   data ,g         0
+  _task1_game_speed_choice
+                                  00000434         2   data ,g         0
+  _task1_lose_blinking
+                                  00000436         2   data ,g         0
+  _p1_y
+                                  00000438         2   data ,g         0
+  _p2_y
+                                  0000043a         2   data ,g         0
+  _ball_x
+                                  0000043c         2   data ,g         0
+  _ball_y
+                                  0000043e         2   data ,g         0
+  _ball_x_val
+                                  00000440         2   data ,g         0
+  _ball_y_val
+                                  00000442         2   data ,g         0
+
+FILE=C:/Workspace/Exam/Exam/timer_stuff
+                                  00000444  00000445         2
+  _old_knob_val
+                                  00000444         2   data ,g         0
+
+FILE=_mbase
+                                  00000446  00000449         4
+  __mbase
+                                  00000446         0   none ,g         0
+
+FILE=mdata
+                                  0000044a  00000451         8
+  __mnext
+                                  0000044a         0   none ,g         0
+  __msize
+                                  0000044e         0   none ,g         0
+
+SECTION=bss_NO
+FILE=ncrt0_rsk
+                                  00000453  00000453         0
+  _task1_led_data
+                                  00000453         1   data ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task1
+                                  00000453  00000454         2
+  _task1_dir
+                                  00000454         1   data ,g         0
+
+SECTION=program
+FILE=C:/WorkSpace/Exam/Exam/hwsetup
+                                  000f006a  000f0144        db
+  _HardwareSetup
+                                  000f006a         a   func ,g         0
+  _ConfigureOperatingFrequency
+                                  000f0074        4c   func ,g         0
+  _EnablePeripheralModules
+                                  000f00c0         d   func ,g         0
+
+FILE=C:/WorkSpace/Exam/Exam/main
+                                  000f0146  000f0152         d
+  _main
+                                  000f0146         d   func ,g         0
+
+FILE=C:/WorkSpace/Exam/Exam/resetprg
+                                  000f0154  000f015d         a
+  _Initialise
+                                  000f0154         a   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/adc_stuff
+                                  000f015e  000f0177        1a
+  _adc_configuration
+                                  000f015e        1a   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/lcd
+                                  000f0178  000f035b       1e4
+  _InitialiseDisplay
+                                  000f0178        ae   func ,g         0
+  $DisplayString
+                                  000f0226        5e   func ,g         0
+  $LCD_write
+                                  000f0284        2c   func ,g         0
+  $LCD_nibble_write
+                                  000f02b0        86   func ,g         0
+  _DisplayDelay
+                                  000f0336        26   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/lcd_utils
+                                  000f035c  000f059e       243
+  _superMenu_lcdDisplay
+                                  000f035c        7a   func ,g         0
+  _superMenu_scrollDisplay
+                                  000f03d6        91   func ,g         0
+  $task1_LEDGameInit
+                                  000f0468        16   func ,g         0
+  $task1_LCDGameInit
+                                  000f047e        2f   func ,g         0
+  _task1_gameOver
+                                  000f04ac        46   func ,g         0
+  $task1_LCDGameDisplay
+                                  000f04f2        ad   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/super_menu
+                                  000f05a0  000f05a8         9
+  _superMenu_initialize
+                                  000f05a0         9   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/switch_function
+                                  000f05aa  000f0641        98
+  _switch_initialize
+                                  000f05aa        11   func ,g         0
+  _sw1
+                                  000f05bc        2f   func ,g         0
+  _sw2
+                                  000f05ea        2e   func ,g         0
+  _sw3
+                                  000f0618        2a   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task1
+                                  000f0642  000f0944       303
+  _task1_initialize
+                                  000f0642        78   func ,g         0
+  _task1_changeGameMode
+                                  000f06ba        66   func ,g         0
+  _task1_checkGameOver
+                                  000f0720        1c   func ,g         0
+  _task1_playGame
+                                  000f073c       167   func ,g         0
+  _task1_changeGameSpeed
+                                  000f08a4        10   func ,g         0
+  _task1_sw1
+                                  000f08b4        49   func ,g         0
+  _task1_sw2
+                                  000f08fc        49   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task2
+                                  000f0946  000f0946         1
+  _task2_initialize
+                                  000f0946         1   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task3
+                                  000f0948  000f0948         1
+  _task3_initialize
+                                  000f0948         1   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task4
+                                  000f094a  000f094a         1
+  _task4_initialize
+                                  000f094a         1   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task5
+                                  000f094c  000f094c         1
+  _task5_initialize
+                                  000f094c         1   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/task_init
+                                  000f094e  000f09bc        6f
+  _onceInitialize
+                                  000f094e        11   func ,g         0
+
+FILE=C:/Workspace/Exam/Exam/timer_stuff
+                                  000f09be  000f0aee       131
+  _timer_configuration
+                                  000f09be        4d   func ,g         0
+  _timer_a0_interrupt
+                                  000f0a0c        cf   func ,g         0
+  _timer_a1_interrupt
+                                  000f0ada         f   func ,g         0
+
+FILE=_f4tof8
+                                  000f0af0  000f0b75        86
+  __f4tof8
+                                  000f0af0        86   func ,g         0
+
+FILE=_f8ge
+                                  000f0b76  000f0c1c        a7
+  __f8ge
+                                  000f0b76        a7   func ,g         0
+
+FILE=_f8ltor
+                                  000f0c1e  000f0c71        54
+  $_f8ltor
+                                  000f0c1e        54   func ,g         0
+
+FILE=_i4tof4
+                                  000f0c72  000f0c93        22
+  __i4tof4
+                                  000f0c72        22   func ,g         0
+
+FILE=_ltof
+                                  000f0c94  000f0d67        d4
+  $_ltof
+                                  000f0c94        d4   func ,g         0
+
+FILE=bcopy
+                                  000f0d68  000f0d9c        35
+  _bcopy
+                                  000f0d68        35   func ,g         0
+
+FILE=bzero
+                                  000f0d9e  000f0dc5        28
+  _bzero
+                                  000f0d9e        28   func ,g         0
+
+FILE=rand
+                                  000f0dc6  000f0df8        33
+  _rand
+                                  000f0dc6        2a   func ,g         0
+  $srand
+                                  000f0df0         9   func ,g         0
+
+FILE=_f4divs
+                                  000f0dfa  000f0ecb        d2
+  __f4div
+                                  000f0e1c         0   func ,g         0
+
+FILE=_f4rets
+                                  000f0ecc  000f0efd        32
+  __f4retInf
+                                  000f0ed6         0   none ,g         0
+  __f4retNaN
+                                  000f0ecc         0   none ,g         0
+  __f4retNum
+                                  000f0ee6         0   none ,g         0
+  __f4retZero
+                                  000f0ed2         0   none ,g         0
+
+FILE=_f4ltor
+                                  000f0efe  000f0f43        46
+  $_f4ltor
+                                  000f0efe        46   func ,g         0
+
+FILE=_f4rtol
+                                  000f0f44  000f0f81        3e
+  $_f4rtol
+                                  000f0f44        3e   func ,g         0
+
+FILE=_i4mulu
+                                  000f0f82  000f0f9d        1c
+  __i4mulU
+                                  000f0f82        1c   func ,g         0
+
+SECTION=interrupt
+FILE=ncrt0_rsk
+                                  000f0f9e  000f10b0       113
+  $exit
+                                  000f10ae         0   none ,g         0
+  _exit
+                                  000f10ae         0   none ,g         0
+  dummy_int
+                                  000f10b0         0   none ,g         0
+

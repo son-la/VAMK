@@ -1,0 +1,5 @@
+-c
+-finfo
+-dir "C:\WorkSpace\week1b\week1b\debug"
+-Wall
+"C:\WorkSpace\week1b\week1b\resetprg.c"

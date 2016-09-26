@@ -1,0 +1,2 @@
+TimerA in Event Counter Mode
+Timer A2 is setup to count Timer A3 overflows (Timer A3 is setup in Timer Mode).

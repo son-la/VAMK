@@ -1,0 +1,2 @@
+TimerB Period Measurement Mode
+Shows how to setup Timer B for Pulse Width or Pulse Period measurement mode.

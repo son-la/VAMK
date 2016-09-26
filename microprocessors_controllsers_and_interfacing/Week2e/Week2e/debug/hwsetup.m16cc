@@ -1,0 +1,5 @@
+-c
+-finfo
+-dir "C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2e\Week2e\debug"
+-Wall
+"C:\Users\Son\Documents\GitHub\VAMK_microprocessors_controllsers_and_interfacing\Week2e\Week2e\hwsetup.c"
